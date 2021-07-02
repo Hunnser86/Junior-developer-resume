@@ -129,6 +129,11 @@ strong {
 
 /*Header*/
 
+.logo-img{
+    width:20em;
+    height: 20em;
+}
+
 nav {
     display: none;
 }
@@ -283,6 +288,17 @@ nav {
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
+
+.section-subtitle-work::after {
+    content: '';
+    display: block;
+    width: 4em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
+}
+
 
 .portfolio {
     display: grid;
