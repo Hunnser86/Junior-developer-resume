@@ -65,7 +65,8 @@ section {
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
-    background: var(--clr-accent);
+    background: var(--clr-light);
+    border: 5px solid var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
@@ -141,7 +142,9 @@ header{
 
 .logo-img{
     max-width: 200px;
-    max-height: 150px;
+    max-height: 135px;
+    position: absolute;
+    padding-bottom: 20px;
 }
 
 .nav{
@@ -488,4 +491,9 @@ header{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.portfolio-screenshot{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
